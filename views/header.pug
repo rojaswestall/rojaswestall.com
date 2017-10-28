@@ -1,18 +1,26 @@
-section(class='header')
-	div(class='container')
-		h2(class='name') Gabriel Rojas-Westall
-		p Computer Science
-		p Northwestern University
-		p(id='email') rojaswestall@u.northwestern.edu
+header(class='header')
+	div(class='header-container')
+		div(class='general')
+			h2(class='name') Gabe Rojas-Westall
+			p Computer Science
+			p Northwestern University
+			p(id='email') rojaswestall@u.northwestern.edu
 
-		a(href='https://github.com/rojaswestall')
-			i(class="fa fa-github icon" aria-hidden="true")
-		a(href='https://www.linkedin.com/in/rojaswestall/')
-			i(class="fa fa-linkedin-square icon" aria-hidden="true")
-		a(href='') 
-			i(class="fa fa-file-text icon" aria-hidden="true")
-		a(href='')
-			i(class="fa fa-envelope icon" aria-hidden="true")
+			ul(class='header-links ul-unstyled ul-inline')
+				li
+					a(href='https://github.com/rojaswestall')
+						i(class="fa fa-github icon" aria-hidden="true")
+				li
+					a(href='https://www.linkedin.com/in/rojaswestall/')
+						i(class="fa fa-linkedin-square icon" aria-hidden="true")
+				li
+					a(href='/gabrielrojas-resume.pdf') 
+						i(class='fa fa-file-text icon' aria-hidden='true')
+
+			
+
+		//- img(src='/images/Gabe_Las-Vegas.jpg' class='profpic' alt='Me in Las Vegas for a company trip with Fulcrum')
+
 
 svg.curved-divider(
 	xmlns="http://www.w3.org/2000/svg"
@@ -22,5 +30,3 @@ svg.curved-divider(
 	viewBox="0 0 100 100"
 	preserveAspectRatio="none")
 	path(d="M0 100 C 20 0 50 0 100 100 Z")
-
-// Need to add resume and email forms
