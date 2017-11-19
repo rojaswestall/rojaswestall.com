@@ -91,12 +91,15 @@ h2 {
 }
 
 .name {
-	padding-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-size: 40px;
+	font-weight: 200;
 }
 
-.ul-unstyled {
+/*.ul-unstyled {
   list-style-type: none;
-}
+}*/
 
 .ul-inline {
   display: flex;
@@ -109,13 +112,14 @@ h2 {
 .header-links {
     /*justify-content: center;*/
     margin: 10px 0;
+    color: black;
 }
 
-@media (min-width: 500px) {
+/*@media (min-width: 500px) {
 	.header-links {
     	justify-content: flex-start;
 	}
-}
+}*/
 
 .header {
 	background-color: rgba(230,230,250,.4);
